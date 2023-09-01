@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Youtube</title>
+
+        <link rel="stylesheet" href="/css/youtube-clone.css">
+
+        <!-- fontaswesom 아이콘 사용할 수 있는 스크립트 연결-->
+        <script src="https://kit.fontawesome.com/ac58eafae7.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+
+        <Main>
+            <header>
+                <section class = "menu">
+                    <button id  = "menu-btn" class="fa-solid fa-bars"></button>
+                    <a  href="https://www.youtube.com/">
+                        <img src = "../images/youtube-logo.png" id = "youtube-logo">
+                    </a>
+                </section>
+    
+                <section class = "search">
+                    <div class = "search1">
+                        <form action = "#" name = "search-form">
+                            <fieldset class = "search-field">
+                                <input type ="search" id = "search-input" name = "search" placeholder="검색">
+                                <!-- keyboard는 나중에 atag로 바꿀 것!! -->
+                                <button id = "keyboard-btn" class="fa-regular fa-keyboard"></button> 
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class = "search2">
+                        <button id = "search-btn" class="fa-solid fa-magnifying-glass"></button>
+                    </div>
+                    <div class = "search3">
+                        <button id = "microphone-btn" class="fa-solid fa-microphone"></button>
+                    </div>
+                </section>
+    
+                <section class = "user">
+                    <button id = "new-video" class="fa-solid fa-file-video"></button>
+                    <button id = "alarm" class="fa-regular fa-bell"></button>
+                    <button id = "user" class="fa-regular fa-circle-user"></button>
+                </section>
+            </header>
+
+
+            <section class="display">
+                <section class = "display1">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/8pfjLoEFRZ0?si=KZV7Pf2cB-JoQ-Pj&autoplay=1&mute=1" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                    </iframe>
+
+                    <section id = "video-info">
+                        <section class = "title">
+                            <p class = "video-title">[스우파2] 마네퀸(MANNEQUEEN) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                            <a href = "https://www.youtube.com/results?search_query=%23%EC%8A%A4%ED%8A%B8%EB%A6%BF%EC%9A%B0%EB%A8%BC%ED%8C%8C%EC%9D%B4%ED%84%B02"
+                            class = "hash-tag">#스트릿우먼파이터2</a>
+                        </section>
+
+                        <section class = " user-function">
+                            <div class = "video-owner"> <!--23-->
+                                <div class = wrapper>
+                                    <img src="../images/owner-img.jpg">
+                                </div>
+                                <div class = "video-owner-info">
+                                    <p class = "video-owner-name">The CHOOM (더 춤)</p>
+                                    <p class = "video-owner-follower">구독자 38만명</p>
+                                </div>
+                            </div>
+
+                            <div class = "subscribe"> <!--8 -->
+                                <button id = "subscribe-btn">구독</button>
+                            </div>
+
+                            <div></div> <!-- 9-->
+
+                            <div class = "feedback"> <!--22-->
+                                <button id = "good-btn" class="fa-regular fa-thumbs-up"> 좋아요</button>
+                                <button id = "bad-btn" class="fa-regular fa-thumbs-down"> 싫어요</button>
+                            </div>
+
+                            <div class = "share"> <!--10-->
+                                <button id = "share-btn" class="fa-solid fa-share"> 공유</button>
+                            </div>
+
+                            <div class = "off-save"> <!--15-->
+                                <button id = "off-save-btn" class="fa-regular fa-circle-down"> 오프라인 저장</button>
+                            </div>
+
+                            <div class = "save"> <!--8-->
+                                <button id = "save-btn"class="fa-regular fa-square-plus"> 저장</button>
+                            </div>
+
+                            
+                            <div class = "add-subscribe"> <!--5-->
+                                <button id = "add-subscribe-btn" class="fa-solid fa-ellipsis"></button>
+                            </div>
+
+
+                        </section>
+                    </section>
+
+                    <section id = "video-data">
+                        <div class = "video-data-look-info">
+                            <p class = "list1-video-look">조회수 38만명&nbsp;</p>    
+                            <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                        </div>
+                        <div class = "video-data-content">
+                            <p>
+                                [스우파2] 크루곡 퍼포먼스 대중 투표 (Crew Song Performance) l 마네퀸(MANNEQUEEN)
+                                바로 지금! 글로벌 춤 서열 1위를 차지할 우승 크루를 위해 투표해주세요!
+                                
+                                ♬ EZ (Prod. Czaer) - Jvcki Wai
+
+                                🔗 Mnet Plus 투표 바로가기 : https://rb.gy/4mbn6
+
+                                〈크루곡 퍼포먼스 대중 투표〉
+
+                                <!-- 📍투표 기간: ~ 10/31(화) 6PM (KST)
+                                📍유의사항
+                                ① 글로벌 대중 투표 점수는 유튜브 The CHOOM 채널에 게시된 평가 영상의 좋아요수 x 100과 조회수, Mnet Plus 투표수 x 100의 합으로 산정됩니다.
+                                ② 동영상 캠페인 프로모션 및 각종 어뷰징으로 인한 조회수는 집계에 미포함 됩니다.
+                                ③ 엠넷 플러스 앱 내의 투표는 하루에 한 번만 할 수 있으며 다중투표는 가능하나 중복투표는 불가능합니다. (24:00 (KST)에 다시 투표 가능)
+                                ④ 탈락 크루 발생 시, 해당 크루는 투표 집계에서 제외되나 투표 창에는 남아있음을 참고 부탁드립니다. -->
+                                <button>...더보기</button> <!-- 나중에 a tag이용?-->
+                            </p>
+                            
+                        </div>
+                    </section>
+
+                    <section id = "comment">
+                        <div class = "comment-info">
+                            <p>댓글 1,611개</p>
+                            <button class="fa-solid fa-align-left">&nbsp;&nbsp; 정렬 기준</button>
+                        </div>    
+
+                        <div class = "comment-add">
+                            <div class = wrapper-user>
+                                <img src="../images/owner-img.jpg">
+                            </div>
+
+                            <form class = "comment-input">
+                                <section class = "comment-input-section1">
+                                    <input type = "text" id = "comment-input-box" name ="id" placeholder="댓글 작성"></input>
+                                </section>
+
+                                <section class = "comment-input-section2">
+                                    <button id="smile" class="fa-regular fa-face-laugh-beam"></button>
+
+                                    <div></div>
+                                    
+                                    <button class ="comment-cancel-btn">취소</button>
+                                    <button class ="comment-registor-btn">등록</button>
+
+                                </section>
+                            </form>     
+                        </div>      
+                        
+                        
+
+
+                        <ul class = "comment-list">
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/panda/래서판다1.jpg">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes </p>
+                                            <P>&nbsp;9일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용1</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;1.5천</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 4개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/panda/래서판다2.jpg">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes2 </p>
+                                            <P>&nbsp;8일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용2</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;150</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 1개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/panda/푸바오1.jpg">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes3 </p>
+                                            <P>&nbsp;3일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용3</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;600</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 5개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+
+
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/panda/푸바오2.png">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes4 </p>
+                                            <P>&nbsp;1일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용4</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;3</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 1개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/panda/푸바오3.jpg">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes5 </p>
+                                            <P>&nbsp;9일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용5</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;1.2천</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 20개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/picture/풍경1.jpg">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes6 </p>
+                                            <P>&nbsp;9일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용6</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;1.2천</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 20개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+
+                            <li class = "comment">
+                                <div class = wrapper-comment>
+                                    <img src="/images/picture/풍경2.jpg">
+                                </div>
+    
+                                <section class = "comment-total">
+                                    <div class = "comment-user-info">
+                                        <!-- 나중에 a태그로 바꾸기-->
+                                            <p>@vegayes7 </p>
+                                            <P>&nbsp;9일전</P>
+                                    </div>
+                                    <div class = "comment-content">
+                                            <p>내용7</p>
+                                    </div>
+                                    <div class = "comment-user-function">
+                                        <button id = "comment-good-btn" class="fa-regular fa-thumbs-up"></button>
+                                        <p>&nbsp;1.2천</p>
+                                        <button id = "comment-bad-btn" class="fa-regular fa-thumbs-down"> </button>
+                                        <button id = "recomment-btn">답글</button>
+                                    </div>
+                                    <div class = "comment-recommnet-list">
+                                        <button id = "comment-recommnet-btn"> ▼ 답글 20개</button>
+                                    </div>
+                                </section>
+
+                            </li>
+
+                        </ul>
+                    </section>
+                </section>
+
+                <section class = "display2">
+                    <section id = "play-menu">
+                        <button class = "menu-1">모두</button>
+                        <button class = "menu-2">내 검색 결과</button>
+                        <button class = "menu-3">시리즈</button>
+                        <button class = "menu-4">The CHOOM (더 춤) 제공</button>
+                        <button class = "menu-5">관련 콘텐츠</button>
+                        <!-- 더 늘어나는 거 진행-->
+                        <!-- <button class = "menu-6">최근에 업로드된 동영상</button> -->
+                    </section>
+
+                    
+                    <section id = "play-list">
+                        <ul>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj&autohide=0" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj&autohide=1" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                            <li class = "list1">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/RtRvS6kt8HY?si=gXeoTR1s-moOkGUj" 
+                                title="YouTube video player" frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen></iframe>
+
+                                <div class = "list1-title">
+                                    <p class = "list1-video-title">[스우파2] 잼 리퍼블릭(JAM REPUBLIC) l 크루곡 퍼포먼스 대중 투표 (Crew Song Performance)</p>
+                                    <p class = "list1-video-owner-name">The CHOOM (더 춤)</p>
+                                    <div class = "list1-video-look-info">
+                                        <p class = "list1-video-look">조회수 38만명</p>    
+                                        <p class = "list1-video-upload">· &nbsp;9일전</p>    
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                 
+                </section>
+            </section>
+        </Main>
+    </body>
+</html>
