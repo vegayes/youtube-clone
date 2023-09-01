@@ -15,7 +15,7 @@ body {
 }
 
 /* 영역나누기 (div, section)*/
-/* section{
+/* div, section{
     border : 1px solid red;
 } */
 
@@ -261,6 +261,10 @@ header > section:last-child{
 }
 
 
+#video-info{
+    width: 100%;
+}
+
 /* 정보 줄어들게 하기! */
 /* #video-info{ 
     flex-basis: 5%;
@@ -272,11 +276,11 @@ header > section:last-child{
     display: flex;
     flex-direction: column;
 
+    width: 100%;
     margin : 10px 0px 10px 0px;
     font-size: 20px;
     font-weight: bold;
     font-family: "GmarketSansMedium";
-
 }
 
 .title > p{
@@ -295,12 +299,12 @@ header > section:last-child{
 /* 이용자 기능 */
 
 .user-function{
+    width: 100%;
     padding : 0px;
     margin : 10px 0px 10px 0px;
     display: flex;
-
-    justify-content: space-around;
     
+    /* justify-content: space-around; */
 }
 
 
@@ -376,8 +380,8 @@ header > section:last-child{
 
     background-color: black;
     color: white;
-    font-size : 20px;
-
+    /* font-size : 20px; */
+    font-size:100%;
 }
 
 .user-function  > div:nth-child(3){
@@ -402,8 +406,8 @@ header > section:last-child{
     border : 1px solid #ddd;
     background-color: #F0F0F0;
 
-    font-size : 20px;
-    
+    /* font-size : 20px; */
+    font-size :90%;
 }
 
 #good-btn:hover{
@@ -421,7 +425,8 @@ header > section:last-child{
     border : 1px solid #ddd;
     background-color: #F0F0F0;
     
-    font-size : 20px;
+    /* font-size : 20px; */
+    font-size :90%;
 }
 
 #bad-btn:hover{
@@ -451,7 +456,8 @@ header > section:last-child{
     border : 1px solid #ddd;
     background-color: #F0F0F0;
     
-    font-size : 20px;
+    /* font-size : 20px; */
+    font-size:100%;
 
 }
 
@@ -482,7 +488,9 @@ header > section:last-child{
     border : 1px solid #ddd;
     background-color: #F0F0F0;
     
-    font-size : 20px;
+    /* font-size : 20px; */
+
+    font-size:100%;
 }
 
 #off-save-btn:hover{
@@ -509,7 +517,8 @@ header > section:last-child{
     border : 1px solid #ddd;
     background-color: #F0F0F0;
     
-    font-size : 20px;
+    /* font-size : 20px; */
+    font-size:100%;
 }
 
 #save-btn:hover{
@@ -541,7 +550,8 @@ header > section:last-child{
     border : 1px solid #ddd;
     background-color: #F0F0F0;
     
-    font-size : 20px;
+    /* font-size : 20px; */
+    font-size:100%;
 }
 
 #savadd-subscribee-btn:hover{
@@ -559,7 +569,7 @@ header > section:last-child{
     padding-left: 10px;
     display: flex;
     flex-direction: column;
-      font-size: 14px;
+    font-size: 14px;
 }
 
 
@@ -707,12 +717,13 @@ header > section:last-child{
 }
 
 .comment-cancel-btn{
-    flex-basis: 7%;
+    /* flex-basis: 12%; */
     width: 60px;
     height: 35px;
     border-radius: 50px;
     border: none;
-    font-size : 14px;
+    /* font-size : 14px; */
+    font-size:90%;
     margin : 0px 10px;
     background-color: white;
 }
@@ -722,12 +733,13 @@ header > section:last-child{
 }
 
 .comment-registor-btn{
-    flex-basis: 7%;
+    /* flex-basis: 12%; */
     width: 60px;
     height: 35px;
     border-radius: 50px;
     border: none;
-    font-size : 14px;
+    /* font-size : 14px; */
+    font-size:90%;
     background-color: blue;
     color : white;
 
@@ -1014,16 +1026,22 @@ header > section:last-child{
     }
 
     .display2{
+        padding-left: 100px;
         width: 100%;
     }   
 
-
     #play-list ul{
+        width: 100%;
         align-items: center;
     }
 
     #play-menu {
-        padding-left : 80px;
+        width: 100%;
+        align-self: center;
+    }
+
+    .comment-input-section2 *{
+        display: none;
     }
 
 }
@@ -1034,9 +1052,8 @@ header > section:last-child{
     }
     
     .user-function div{
-        padding :  0px;
+        padding : 0px;
         margin: 5px;
-        
     }
 }
 
